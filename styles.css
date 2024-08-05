@@ -17,11 +17,36 @@ header, footer {
 main {
     flex: 1;
     padding: 2rem;
-    text-align: center;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+input, button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
 }
 
 button {
-    padding: 1rem 2rem;
-    font-size: 1rem;
     cursor: pointer;
+}
+
+#results {
+    list-style-type: none;
+    padding: 0;
+}
+
+#results li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
 }
